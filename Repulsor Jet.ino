@@ -80,18 +80,7 @@ SimplePatternList gPatterns = { standby, fly }; //patttern list
 
 void loop()
 {
-  //switchState = digitalRead(switchPin); //check input status from switch
-  //if (switchState == HIGH) //if switch is ON
-  //{
     function(); //run function
-  //}
-  //else //if switch is OFF
-  //{
-    //fill_solid(leds, NUM_LEDS, CRGB::Black); //turn off LED 
-    //ServoA.write(30); //turn servo A to 30 degrees
-    //ServoB.write(30); //turn servo B to 30 degrees
-    //FastLED.show(); //write data value to LED, in this case turn it off
-  //}
 }
 
 
