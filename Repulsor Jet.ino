@@ -52,11 +52,8 @@ void setup()
 {
   Serial.begin(9600); //for serial monitor 9600 BAUD
 
-
-  pinMode(switchPin, INPUT); //assign digital input pin 13 as input
   Wire.begin();
   mpu.initialize(); //initializing MPU6050
-
 
   ServoA.attach(servoPinA); //servo A setup
   ServoB.attach(servoPinB); //servo B setup
