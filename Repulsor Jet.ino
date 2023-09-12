@@ -28,8 +28,6 @@ int16_t ax, ay, az; //define acceleration in 3-axis
 int16_t gx, gy, gz; //define gyroscope in 3-axis
 const int servoPinA = 9; //define servo pin A
 const int servoPinB = 10; //define servo pin B
-const int switchPin = 12; //define switch pin
-int switchState = 0; //variable for reading the button setup
 
 
 struct MyData
